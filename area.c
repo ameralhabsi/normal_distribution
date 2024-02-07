@@ -16,6 +16,11 @@ int main()
     double z, delta, phi;
     int j=1;
 
+    printf("\\documentclass[a4paper]{article}\n");
+    printf("\\usepackage{tikz}\n");
+    printf("\\usepackage[margin=20mm]{geometry}\n");
+    printf("\\begin{document}\n");
+
     printf("\\begin{tabular}{l|lllllllllll}\n");
     printf("\\hline \n");
     printf(" {\\bfseries Z}& ");
@@ -42,4 +47,5 @@ int main()
         
     }
     printf("\\end{tabular} \n");
+    printf("\\end{document}\n");
 }
